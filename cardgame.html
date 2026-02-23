@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>カードゲーム</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./cardgame.css">
+    </head>
+        
+    <body>
+        <!--題名-->
+        <h1>カードゲーム</h1>
+        <hr/>
+        <center>
+            ルール
+            <p>自分の手札3枚と相手の手札3枚が配られます。</p>
+            <p>その3枚の数字を１つずつ出して、大きい数字を出した方が勝ちです。</p>
+            <p>3回勝負して勝利数が多かった方が勝ちとなります。</p>
+            
+            相手
+        </center>
+        
+        <center>
+            <!--相手の画像-->
+            <img src="./card enemy.png" 
+            alt="enemy" width="150" height="150" >
+            <a href="./card enemy.png"></a>
+        </center>
+        <!--相手のカード--> 
+        <div class="cards">   
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+         <p></p>
+       <!--自分のカード-->
+       <div class="cards">   
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div> 
+       </div>
+      
+       <center>
+        <img src="./player.png"
+        alt ="player" width="150" height="150">
+        <a href="./player.png"></a>
+       </center>
+       <h2 id ="score">
+        勝ち:0 負け:0 引き分け:0
+       </h2>
+    </body>
+    <script src="card.js"></script>
+</html>  

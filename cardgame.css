@@ -1,0 +1,19 @@
+.card{
+    width: 100px;
+    height: 200px;
+    border:  3px solid black;
+    border-radius: 12px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
